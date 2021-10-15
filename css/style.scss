@@ -1,0 +1,263 @@
+header {
+    background: #FFF2E1;
+}
+
+.header {
+    background: #FFF2E1;
+
+    &_top-inner {
+    }
+
+    &__top {
+    }
+}
+.container {
+    //margin: 30px auto;
+    // display: inline-block;
+}
+.logo {
+    margin: 40px 0px 0px 122px;
+    display: inline-flex;
+    &__link {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: 0.04em;
+        text-decoration: none;
+        color: #113C49;
+    }
+
+    &__img {
+        width: 20px;
+    }
+}
+.menu {
+    display: inline-flex;
+    margin: 0px 0px 0px 500px;
+    &_link {
+        text-decoration: none;
+        color: #252641;
+        font-family: "Poppins", sans-serif;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.02em;
+        color: #252641;
+    }
+
+    &__list {
+    }
+
+    &__list-item {
+        display: inline-block;
+        padding: 0px 80px 0px 0px;
+    }
+}
+.buttons {
+    display: inline-flex;
+
+    &__item1 {
+        margin: 0px 34px 0px 0px;
+        width: 160px;
+        height: 60px;
+        left: 1440px;
+        top: 71px;
+        border-radius: 80px;
+        border: 0px;
+        background-color: #FFFFFF;
+
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.02em;
+        color: #6C6C6C;
+    }
+
+    &__item2 {
+        width: 160px;
+        height: 60px;
+        left: 1440px;
+        top: 71px;
+        border-radius: 80px;
+        border: 0px;
+        background-color: #F48C06;
+
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+}
+
+.intro {
+    background: #FFF2E1;
+    display: flex;
+    &_row {
+    }
+
+    &__info {
+        margin: 210px 0px 0px 140px;
+    }
+
+    &__title {
+        width: 681px;
+        height: 162px;
+        left: 140px;
+        top: 335px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 81px;
+        color: #2F327D;
+    }
+
+    &__subtitle {
+        width: 523px;
+        height: 76px;
+        left: 140px;
+        top: 531px;
+
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 160%;
+
+        color: #464646;
+    }
+
+    &__img img {
+        width: auto;
+        height: 892px;
+        left: 1088px;
+        top: 224px;
+
+        margin: 0px 0px 0px 267px;
+    }
+}
+.rowintro {
+    display: flex;
+
+    &__button button {
+        margin: 52px 0px 0px 0px;
+
+        width: 220px;
+        height: 80px;
+        left: 140px;
+        top: 659px;
+
+        background: #F48C06;
+        border-radius: 80px;
+        border: 0px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+
+    &__img img {
+        margin: 52px 0px 0px 40px;
+        border-radius: 120px;
+        width: auto;
+        height: 80px;
+        //background-color: white;
+        background-image: url(img/iconplay.png);
+    }
+
+    &__text {
+        margin: 52px 0px 0px 32px;
+        width: 232px;
+        height: 36px;
+        left: 512px;
+        top: 681px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: #252641;
+    }
+}
+
+.companies {
+    &__title {
+        /* Trusted by 5,000+ Companies Worldwide */
+        margin: 100px 0px 0px 0px;
+
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 160%;
+        /* identical to box height, or 45px */
+        letter-spacing: 0.02em;
+        text-align: center;
+
+        color: #696984;
+    }
+
+    &__icons {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        margin: 42px 0px 160px 0px;
+        height: 200px;
+        vertical-align: middle;
+    }
+
+    &__iconofcompany {
+        margin: 0px 0px 0px 85px;
+    }
+}
+
+.title_with_text {
+    &__title {
+        /* All-In-One Cloud Software. */
+        margin: 0px auto;
+        width: 501px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 180%;
+        /* identical to box height, or 65px */
+
+        color: #F48C06;
+    }
+
+    &__text {
+        /* Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office. */
+        margin: 0px auto;
+        width: 837px;
+        height: 86px;
+        left: 545px;
+        top: 1609px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 180%;
+        /* or 43px */
+        text-align: center;
+
+        color: #696984;
+    }
+}
