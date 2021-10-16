@@ -16,9 +16,9 @@ header {
     // display: inline-block;
 }
 .logo {
-    margin: 40px 0px 0px 122px;
     display: inline-flex;
     &__link {
+        margin: 40px 0px 0px 122px;
         font-family: "Poppins", sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -35,7 +35,7 @@ header {
 }
 .menu {
     display: inline-flex;
-    margin: 0px 0px 0px 500px;
+
     &_link {
         text-decoration: none;
         color: #252641;
@@ -50,6 +50,7 @@ header {
     }
 
     &__list {
+        margin: 0px 0px 0px 500px;
     }
 
     &__list-item {
@@ -140,7 +141,6 @@ header {
     &__img img {
         width: auto;
         height: 892px;
-        left: 1088px;
         top: 224px;
 
         margin: 0px 0px 0px 267px;
@@ -216,28 +216,38 @@ header {
         flex-direction: row;
         text-align: center;
         justify-content: center;
-        margin: 42px 0px 160px 0px;
-        height: 200px;
+        margin: 42px 0px 0px 0px;
+        height: 56px;
         vertical-align: middle;
     }
 
     &__iconofcompany {
         margin: 0px 0px 0px 85px;
+        width: auto;
+        height: 56px;
     }
 }
 
-.title_with_text {
+.title-with-text {
+    &_allinone {
+        margin: 160px auto 0px auto;
+        width: 837px;
+    }
+
+    &_about {
+        margin: 157px auto 0px auto;
+        width: 1050px;
+    }
+
     &__title {
-        /* All-In-One Cloud Software. */
+        text-align: center;
         margin: 0px auto;
-        width: 501px;
 
         font-family: Poppins;
         font-style: normal;
         font-weight: bold;
         font-size: 36px;
         line-height: 180%;
-        /* identical to box height, or 65px */
 
         color: #F48C06;
     }
@@ -245,19 +255,211 @@ header {
     &__text {
         /* Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office. */
         margin: 0px auto;
-        width: 837px;
-        height: 86px;
-        left: 545px;
-        top: 1609px;
+        text-align: center;
 
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
         line-height: 180%;
-        /* or 43px */
+
+        color: #696984;
+    }
+}
+
+.cards {
+    display: flex;
+
+    &__body {
+        margin: 160px 225px 0px 225px;
+    }
+    &__item {
+        margin: 0px 60px 0px auto;
+        width: 450px;
+        height: 430px;
+        left: 225px;
+        top: 1855px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+        border-radius: 20px;
+    }
+
+    &__picture img {
+        text-align: center;
+
+        margin-top: 27px;
+    }
+
+    &__circle {
+        margin: -60px auto;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        background: red;
+    }
+
+    &__title {
+        margin: 139px auto 0px auto;
+        width: 343px;
+        height: 90px;
+        left: 279px;
+        top: 1977px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+
+        color: #2F327D;
+    }
+
+    &__text {
+        margin: 24px auto 0px auto;
+        width: 341px;
+        height: 144px;
+        left: 280px;
+        top: 2091px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 180%;
+        /* or 36px */
         text-align: center;
 
         color: #696984;
+    }
+}
+
+.startingfor {
+    //justify-content: flex-end;
+
+    &__row {
+        display: flex;
+        justify-content: center;
+        margin: 80px auto auto auto;
+    }
+
+    &__block {
+        margin: 0px 50px 0px 50px;
+
+        padding: auto;
+        width: 600px;
+        height: 400px;
+
+        opacity: 1;
+        border: 0px solid #000000;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+
+    &__instructors {
+        //opacity: 0.6;
+        // background-image: url("img/forinstructors.png");
+        // // background-color: rebeccapurple;
+
+        // background-image: ("img/forinstructors.png");
+        // background-image: url(img/forinstructors.png);
+        // background: ("img/forinstructors.png");
+        // background: url(img/forinstructors.png);
+        background: url(https://sun9-43.userapi.com/impg/86-8NBNnyWW42xPxafZ5EXF8MU2AjA21jVIMpA/LBTfwcfg-u0.jpg?size=600x400&quality=96&sign=1325208a6b10220c79aad8a6aec019c5&type=album);
+        height: 100%;
+
+        // // border: 0px solid #000000;
+        // // box-sizing: border-box;
+        // // border-radius: 20px;
+    }
+
+    &__students {
+        //background-image: url("img/forstudents.png");
+        //background: url(img/forstudents.png);
+
+        background: url(https://sun9-46.userapi.com/impg/R3NSFlGsQQSOaSSFZ_R5S47N4-Rw8_KQECIg_w/hilrfJA96MY.jpg?size=600x400&quality=96&sign=2fef553007364592ca5831f79c2beb4d&type=album);
+        background-size: cover;
+        height: 100%;
+    }
+
+    &__title {
+        padding: 132px 0px 0px 0px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__link {
+        &_forinstructors {
+            width: 283px;
+            height: 80px;
+            left: 1169px;
+            top: 2948px;
+
+            //background: rgba(0, 0, 0, 0.9);
+            opacity: 1;
+            border-radius: 80px;
+            border: 2px solid #ffffff;
+
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 33px;
+            /* identical to box height */
+
+            text-align: center;
+            margin: 17px auto;
+            color: #FFFFFF;
+            a {
+                display: inline-block;
+                vertical-align: middle;
+                top: 60%;
+                color: #FFFFFF;
+                text-decoration: none;
+
+                padding: 20px 0px 0px 0px;
+            }
+        }
+        &_forstudents {
+            width: 283px;
+            height: 80px;
+            left: 1169px;
+            top: 2948px;
+
+            background: rgba(35, 189, 238, 0.9);
+            border-radius: 80px;
+
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 33px;
+            /* identical to box height */
+
+            text-align: center;
+
+            margin: 17px auto;
+            color: #FFFFFF;
+            a {
+                display: inline-block;
+                vertical-align: middle;
+                top: 60%;
+                color: #FFFFFF;
+                text-decoration: none;
+
+                padding: 20px 0px 0px 0px;
+            }
+        }
     }
 }

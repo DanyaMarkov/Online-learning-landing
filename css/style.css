@@ -7,13 +7,13 @@ header {
 }
 
 .logo {
-  margin: 40px 0px 0px 122px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
 .logo__link {
+  margin: 40px 0px 0px 122px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -32,7 +32,6 @@ header {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin: 0px 0px 0px 500px;
 }
 
 .menu_link {
@@ -45,6 +44,10 @@ header {
   line-height: 33px;
   letter-spacing: 0.02em;
   color: #252641;
+}
+
+.menu__list {
+  margin: 0px 0px 0px 500px;
 }
 
 .menu__list-item {
@@ -133,7 +136,6 @@ header {
 .intro__img img {
   width: auto;
   height: 892px;
-  left: 1088px;
   top: 224px;
   margin: 0px 0px 0px 267px;
 }
@@ -209,42 +211,213 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 42px 0px 160px 0px;
-  height: 200px;
+  margin: 42px 0px 0px 0px;
+  height: 56px;
   vertical-align: middle;
 }
 
 .companies__iconofcompany {
   margin: 0px 0px 0px 85px;
+  width: auto;
+  height: 56px;
 }
 
-.title_with_text__title {
-  /* All-In-One Cloud Software. */
+.title-with-text_allinone {
+  margin: 160px auto 0px auto;
+  width: 837px;
+}
+
+.title-with-text_about {
+  margin: 157px auto 0px auto;
+  width: 1050px;
+}
+
+.title-with-text__title {
+  text-align: center;
   margin: 0px auto;
-  width: 501px;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 180%;
-  /* identical to box height, or 65px */
   color: #F48C06;
 }
 
-.title_with_text__text {
+.title-with-text__text {
   /* Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office. */
   margin: 0px auto;
-  width: 837px;
-  height: 86px;
-  left: 545px;
-  top: 1609px;
+  text-align: center;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 180%;
-  /* or 43px */
+  color: #696984;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards__body {
+  margin: 160px 225px 0px 225px;
+}
+
+.cards__item {
+  margin: 0px 60px 0px auto;
+  width: 450px;
+  height: 430px;
+  left: 225px;
+  top: 1855px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+          box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  border-radius: 20px;
+}
+
+.cards__picture img {
+  text-align: center;
+  margin-top: 27px;
+}
+
+.cards__circle {
+  margin: -60px auto;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: red;
+}
+
+.cards__title {
+  margin: 139px auto 0px auto;
+  width: 343px;
+  height: 90px;
+  left: 279px;
+  top: 1977px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #2F327D;
+}
+
+.cards__text {
+  margin: 24px auto 0px auto;
+  width: 341px;
+  height: 144px;
+  left: 280px;
+  top: 2091px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 180%;
+  /* or 36px */
   text-align: center;
   color: #696984;
+}
+
+.startingfor__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 80px auto auto auto;
+}
+
+.startingfor__block {
+  margin: 0px 50px 0px 50px;
+  padding: auto;
+  width: 600px;
+  height: 400px;
+  opacity: 1;
+  border: 0px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.startingfor__instructors {
+  background: url(https://sun9-43.userapi.com/impg/86-8NBNnyWW42xPxafZ5EXF8MU2AjA21jVIMpA/LBTfwcfg-u0.jpg?size=600x400&quality=96&sign=1325208a6b10220c79aad8a6aec019c5&type=album);
+  height: 100%;
+}
+
+.startingfor__students {
+  background: url(https://sun9-46.userapi.com/impg/R3NSFlGsQQSOaSSFZ_R5S47N4-Rw8_KQECIg_w/hilrfJA96MY.jpg?size=600x400&quality=96&sign=2fef553007364592ca5831f79c2beb4d&type=album);
+  background-size: cover;
+  height: 100%;
+}
+
+.startingfor__title {
+  padding: 132px 0px 0px 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.startingfor__link_forinstructors {
+  width: 283px;
+  height: 80px;
+  left: 1169px;
+  top: 2948px;
+  opacity: 1;
+  border-radius: 80px;
+  border: 2px solid #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+  text-align: center;
+  margin: 17px auto;
+  color: #FFFFFF;
+}
+
+.startingfor__link_forinstructors a {
+  display: inline-block;
+  vertical-align: middle;
+  top: 60%;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 20px 0px 0px 0px;
+}
+
+.startingfor__link_forstudents {
+  width: 283px;
+  height: 80px;
+  left: 1169px;
+  top: 2948px;
+  background: rgba(35, 189, 238, 0.9);
+  border-radius: 80px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+  text-align: center;
+  margin: 17px auto;
+  color: #FFFFFF;
+}
+
+.startingfor__link_forstudents a {
+  display: inline-block;
+  vertical-align: middle;
+  top: 60%;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 20px 0px 0px 0px;
 }
 /*# sourceMappingURL=style.css.map */
