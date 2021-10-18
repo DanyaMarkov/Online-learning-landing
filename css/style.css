@@ -1,9 +1,9 @@
 header {
-  background: #FFF2E1;
+  background: #fff2e1;
 }
 
 .header {
-  background: #FFF2E1;
+  background: #fff2e1;
 }
 
 .logo {
@@ -21,7 +21,7 @@ header {
   line-height: 48px;
   letter-spacing: 0.04em;
   text-decoration: none;
-  color: #113C49;
+  color: #113c49;
 }
 
 .logo__img {
@@ -69,14 +69,14 @@ header {
   top: 71px;
   border-radius: 80px;
   border: 0px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.02em;
-  color: #6C6C6C;
+  color: #6c6c6c;
 }
 
 .buttons__item2 {
@@ -86,18 +86,18 @@ header {
   top: 71px;
   border-radius: 80px;
   border: 0px;
-  background-color: #F48C06;
+  background-color: #f48c06;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .intro {
-  background: #FFF2E1;
+  background: #fff2e1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,7 +117,7 @@ header {
   font-weight: bold;
   font-size: 54px;
   line-height: 81px;
-  color: #2F327D;
+  color: #2f327d;
 }
 
 .intro__subtitle {
@@ -152,7 +152,7 @@ header {
   height: 80px;
   left: 140px;
   top: 659px;
-  background: #F48C06;
+  background: #f48c06;
   border-radius: 80px;
   border: 0px;
   font-family: Poppins;
@@ -160,7 +160,7 @@ header {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .rowintro__img img {
@@ -240,7 +240,7 @@ header {
   font-weight: bold;
   font-size: 36px;
   line-height: 180%;
-  color: #F48C06;
+  color: #f48c06;
 }
 
 .title-with-text__text {
@@ -271,7 +271,7 @@ header {
   height: 430px;
   left: 225px;
   top: 1855px;
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
           box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
   border-radius: 20px;
@@ -303,7 +303,7 @@ header {
   font-size: 30px;
   line-height: 45px;
   text-align: center;
-  color: #2F327D;
+  color: #2f327d;
 }
 
 .cards__text {
@@ -363,7 +363,7 @@ header {
   font-size: 32px;
   line-height: 48px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .startingfor__link_forinstructors {
@@ -382,14 +382,14 @@ header {
   /* identical to box height */
   text-align: center;
   margin: 17px auto;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .startingfor__link_forinstructors a {
   display: inline-block;
   vertical-align: middle;
   top: 60%;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   padding: 20px 0px 0px 0px;
 }
@@ -409,15 +409,91 @@ header {
   /* identical to box height */
   text-align: center;
   margin: 17px auto;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .startingfor__link_forstudents a {
   display: inline-block;
   vertical-align: middle;
   top: 60%;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   padding: 20px 0px 0px 0px;
+}
+
+.possibilities__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 160px auto auto auto;
+}
+
+.possibilities__text {
+  margin: 30px 67px 0px 0px;
+  width: 730px;
+  height: 172px;
+  left: 211px;
+  top: 3521px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 180%;
+  /* or 43px */
+  letter-spacing: 0.02em;
+  color: #696984;
+}
+
+.possibilities__cicrlefortitle {
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  -webkit-clip-path: circle(50%);
+          clip-path: circle(50%);
+  background: #f4b767;
+}
+
+.possibilities__title {
+  width: 655px;
+  height: 116px;
+  left: 211px;
+  top: 3375px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 160%;
+  /* or 58px */
+  color: #f48c06;
+}
+
+.possibilities__linkblock {
+  margin: 30px 0px 0px 0px;
+}
+
+.possibilities__link {
+  width: 125px;
+  height: 40px;
+  left: 211px;
+  top: 3723px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 180%;
+  /* identical to box height, or 40px */
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #696984;
+}
+
+.possibilities__picture {
+  width: 705px;
+  height: 471.08px;
+  left: 1008px;
+  top: 3331px;
 }
 /*# sourceMappingURL=style.css.map */
