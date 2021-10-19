@@ -6,6 +6,14 @@ header {
   background: #fff2e1;
 }
 
+.container {
+  left: 0px;
+  top: 0px;
+  background: #fff2e1;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .logo {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -144,10 +152,11 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 52px 0px 0px 0px;
 }
 
 .rowintro__button button {
-  margin: 52px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   width: 220px;
   height: 80px;
   left: 140px;
@@ -163,16 +172,15 @@ header {
   color: #ffffff;
 }
 
-.rowintro__img img {
-  margin: 52px 0px 0px 40px;
-  border-radius: 120px;
-  width: auto;
+.rowintro__img {
+  margin: 0px 0px 0px 40px;
+  width: 80px;
   height: 80px;
   background-image: url(img/iconplay.png);
 }
 
 .rowintro__text {
-  margin: 52px 0px 0px 32px;
+  margin: 0px 0px 0px 32px;
   width: 232px;
   height: 36px;
   left: 512px;
@@ -230,6 +238,11 @@ header {
 .title-with-text_about {
   margin: 157px auto 0px auto;
   width: 1050px;
+}
+
+.title-with-text_features {
+  margin: 160px auto 0px auto;
+  width: 888px;
 }
 
 .title-with-text__title {
@@ -495,5 +508,71 @@ header {
   height: 471.08px;
   left: 1008px;
   top: 3331px;
+}
+
+.aboutinterface__row {
+  margin: 100px auto auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutinterface__picture {
+  width: 896px;
+  height: 522px;
+}
+
+.aboutinterface__infoblock {
+  margin: 0px 0px 0px 126px;
+}
+
+.infoblock__title {
+  width: 542px;
+  height: 128px;
+  left: 1192px;
+  top: 4328px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 160%;
+  /* or 64px */
+  color: #2f327d;
+}
+
+.infoblock__blockwithicons {
+  margin: 51px 0px 0px 0px;
+}
+
+.blockwithicons__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 0px 40px 0px;
+}
+
+.blockwithicons__icon {
+  margin: 20px 42px 0px 0px;
+  width: 26.59px;
+  height: 26px;
+  background: #fbfbfb;
+  -webkit-box-shadow: 0px 15px 44px rgba(13, 15, 28, 0.12);
+          box-shadow: 0px 15px 44px rgba(13, 15, 28, 0.12);
+}
+
+.blockwithicons__text {
+  width: 443px;
+  height: 80px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 180%;
+  /* or 40px */
+  letter-spacing: 0.02em;
+  color: #696984;
 }
 /*# sourceMappingURL=style.css.map */

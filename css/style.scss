@@ -14,6 +14,12 @@ header {
 .container {
     //margin: 30px auto;
     // display: inline-block;
+
+    left: 0px;
+    top: 0px;
+
+    background: #fff2e1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .logo {
     display: inline-flex;
@@ -102,7 +108,7 @@ header {
 .intro {
     background: #fff2e1;
     display: flex;
-    &_row {
+    &__row {
     }
 
     &__info {
@@ -148,9 +154,9 @@ header {
 }
 .rowintro {
     display: flex;
-
+    margin: 52px 0px 0px 0px;
     &__button button {
-        margin: 52px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
 
         width: 220px;
         height: 80px;
@@ -169,17 +175,16 @@ header {
         color: #ffffff;
     }
 
-    &__img img {
-        margin: 52px 0px 0px 40px;
-        border-radius: 120px;
-        width: auto;
+    &__img {
+        margin: 0px 0px 0px 40px;
+        width: 80px;
         height: 80px;
-        //background-color: white;
+
         background-image: url(img/iconplay.png);
     }
 
     &__text {
-        margin: 52px 0px 0px 32px;
+        margin: 0px 0px 0px 32px;
         width: 232px;
         height: 36px;
         left: 512px;
@@ -237,6 +242,10 @@ header {
     &_about {
         margin: 157px auto 0px auto;
         width: 1050px;
+    }
+    &_features {
+        margin: 160px auto 0px auto;
+        width: 888px;
     }
 
     &__title {
@@ -543,5 +552,76 @@ header {
         height: 471.08px;
         left: 1008px;
         top: 3331px;
+    }
+}
+
+.aboutinterface {
+    &__row {
+        margin: 100px auto auto auto;
+        display: flex;
+        justify-content: center;
+        //text-align: center;
+    }
+
+    &__picture {
+        width: 896px;
+        height: 522px;
+    }
+
+    &__infoblock {
+        margin: 0px 0px 0px 126px;
+    }
+}
+.infoblock {
+    &__title {
+        width: 542px;
+        height: 128px;
+        left: 1192px;
+        top: 4328px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 160%;
+        /* or 64px */
+
+        color: #2f327d;
+    }
+
+    &__blockwithicons {
+        margin: 51px 0px 0px 0px;
+    }
+}
+.blockwithicons {
+    &__row {
+        display: flex;
+        margin: 0px 0px 40px 0px;
+    }
+
+    &__icon {
+        margin: 20px 42px 0px 0px;
+        width: 26.59px;
+        height: 26px;
+
+        // width: 60px;
+        // height: 60px;
+        background: #fbfbfb;
+        box-shadow: 0px 15px 44px rgba(13, 15, 28, 0.12);
+    }
+
+    &__text {
+        width: 443px;
+        height: 80px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 180%;
+        /* or 40px */
+
+        letter-spacing: 0.02em;
+
+        color: #696984;
     }
 }
